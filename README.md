@@ -6,7 +6,7 @@
 
 ## Live Website
 
-https://goldenshoesapp.herokuapp.com/
+https://golden-shoe-store-h4czb.ondigitalocean.app/
 
 ## Features
 
