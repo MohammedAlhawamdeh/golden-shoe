@@ -4,6 +4,9 @@
   "description": "MERN shopping cart app",
   "main": "server.js",
   "type": "module",
+  "engines": {
+  "node": "16.x"
+},
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -11,7 +14,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Mohammed Alhawamdeh",
   "license": "MIT",
